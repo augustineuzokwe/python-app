@@ -14,7 +14,7 @@ def hello():
     return "World"
 
 @app.route("/worlds")
-def hello():
+def worlds():
     return "Mars"
 
 if __name__ == '__main__':
